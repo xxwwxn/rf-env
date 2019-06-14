@@ -1,0 +1,9 @@
+*** Settings ***
+Library           Selenium2Library
+
+*** Test Cases ***
+登录
+    Open Browser    https://qa.envive.cn/home/zh_cn    chrome
+    Click Element    //*[@id="app-navbar-collapse"]/ul[2]/li/a
+    Input Text    //*[@id="login"]    docfb@enviveus.com
+    Input Password
