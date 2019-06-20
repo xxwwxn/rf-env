@@ -1,0 +1,3 @@
+*** Keywords ***
+打开浏览器
+    open browser    https://qa.envive.cn/home/zh_cn    ie
